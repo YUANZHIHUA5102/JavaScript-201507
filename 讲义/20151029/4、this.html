@@ -27,8 +27,10 @@
     //    fn();//this-->window
     //    obj.eat();//this-->obj
 
-    //    document.getElementById("div1").onclick = fn;//把fn函数定义的部分赋值给我们的事件，当我么事件触发的时候才会执行fn这个函数 --> 当点击的时候,fn中的this-->div1这个元素
-    //    document.getElementById("div1").onclick = fn();//fn函数先执行，把它的返回值(undefined)赋值给我们的onclick
+    //    document.getElementById("div1").onclick = fn;//把fn函数定义的部分赋值给我们的事件，当我么事件触发的时候
+    // 才会执行fn这个函数 --> 当点击的时候,fn中的this-->div1这个元素
+    //    document.getElementById("div1").onclick = fn();//fn函数先执行，把它的返回值(undefined)赋值给我们
+    // 的onclick
 
 
     //    var oDiv = document.getElementById("div1");
